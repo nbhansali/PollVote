@@ -19,13 +19,13 @@ class User: NSObject {
     
     /*init(Question: String, CreatedTime: NSDate?, SubmittedBy: Int!, userPhoto: UIImage?, AnswerResponse: String, AnswerOne: Int, AnswerTwo: Int, AnswerThree: Int, AnswerFour: Int) {
      }*/
-    init?(Question: String, CreatedTime: NSDate?, SubmittedBy: Int!) {
+    init?(Name: String, Email: String, Phone: String) {
         self.Name = Name
         self.Email = Email
         self.Phone = Phone
         
         // Initialization should fail if there is no name or if the rating is negative.
-        if Question.isEmpty {
+        if  Name.isEmpty{
             return nil
         }
     }
