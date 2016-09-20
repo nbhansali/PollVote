@@ -12,9 +12,11 @@ import Foundation
 
 class Questions: NSObject {
     
+    var Title : String
     var Question : String
-    var CreatedTime : NSDate?
-    var SubmittedBy: Int!
+    var answers : [Answer]
+    //var CreatedTime : NSDate?
+    //var SubmittedBy: Int!
     //var userPhoto: UIImage?
     //var AnswerRespose: String
     //var AnswerOne: Int
@@ -22,20 +24,21 @@ class Questions: NSObject {
     //var AnswerThree: Int
     //var AnswerFour: Int
     
+    //var questionType: String
+    
     
     /*init(Question: String, CreatedTime: NSDate?, SubmittedBy: Int!, userPhoto: UIImage?, AnswerResponse: String, AnswerOne: Int, AnswerTwo: Int, AnswerThree: Int, AnswerFour: Int) {
      }*/
-    init?(Question: String, CreatedTime: NSDate?, SubmittedBy: Int!) {
+    init?(Title: String, Question: String, answers:[Answer]) {
+        self.Title = Title
         self.Question = Question
-        self.CreatedTime = CreatedTime
-        self.SubmittedBy = SubmittedBy
+        self.answers = answers
+        //self.CreatedTime = CreatedTime
+        //self.SubmittedBy = SubmittedBy
         
         // Initialization should fail if there is no name or if the rating is negative.
         if Question.isEmpty {
             return nil
         }
     }
-    
-    
-    
 }

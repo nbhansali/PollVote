@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		071E1D701D90A5E200AE7650 /* QuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071E1D6F1D90A5E200AE7650 /* QuestionViewController.swift */; };
 		ED2879501D8DAEBD0022A297 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED28794F1D8DAEBD0022A297 /* AppDelegate.swift */; };
 		ED2879521D8DAEBD0022A297 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2879511D8DAEBD0022A297 /* ViewController.swift */; };
 		ED2879551D8DAEBD0022A297 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED2879531D8DAEBD0022A297 /* Main.storyboard */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		071E1D6F1D90A5E200AE7650 /* QuestionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionViewController.swift; sourceTree = "<group>"; };
 		ED28794C1D8DAEBD0022A297 /* PollVote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PollVote.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED28794F1D8DAEBD0022A297 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ED2879511D8DAEBD0022A297 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -105,6 +107,7 @@
 			children = (
 				ED28794F1D8DAEBD0022A297 /* AppDelegate.swift */,
 				ED2879511D8DAEBD0022A297 /* ViewController.swift */,
+				071E1D6F1D90A5E200AE7650 /* QuestionViewController.swift */,
 				ED2879531D8DAEBD0022A297 /* Main.storyboard */,
 				ED2879561D8DAEBD0022A297 /* Assets.xcassets */,
 				ED2879581D8DAEBD0022A297 /* LaunchScreen.storyboard */,
@@ -278,6 +281,7 @@
 			files = (
 				ED2879801D8DAF660022A297 /* User.swift in Sources */,
 				ED28797E1D8DAF570022A297 /* Question.swift in Sources */,
+				071E1D701D90A5E200AE7650 /* QuestionViewController.swift in Sources */,
 				ED2879821D8DAF760022A297 /* Answer.swift in Sources */,
 				ED2879521D8DAEBD0022A297 /* ViewController.swift in Sources */,
 				ED2879501D8DAEBD0022A297 /* AppDelegate.swift in Sources */,
@@ -525,6 +529,7 @@
 				ED2879761D8DAEBE0022A297 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ED2879771D8DAEBE0022A297 /* Build configuration list for PBXNativeTarget "PollVoteTests" */ = {
 			isa = XCConfigurationList;
@@ -533,6 +538,7 @@
 				ED2879791D8DAEBE0022A297 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ED28797A1D8DAEBE0022A297 /* Build configuration list for PBXNativeTarget "PollVoteUITests" */ = {
 			isa = XCConfigurationList;
@@ -541,6 +547,7 @@
 				ED28797C1D8DAEBE0022A297 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
