@@ -21,15 +21,22 @@ class QuestionViewController: UIViewController {
         // Connect to database (data source) 
         // Retrieve question and properties based off on user/ID
         
-        let answer1 = Answer(Name: "Option 1")
+        let answer1 = Answer(Name: "I love cheese")
+        let answer2 = Answer(Name: "I hate cheese")
         
-        let quest = Questions(Title: "Do you like cheese?", Question: "What's Up?", answers:[answer1!])
+        let quest = Questions(Title: "Aman is asking...", Question: "Do you like cheese?", answers:[answer1!, answer2!])
 
         
         questionTitle.text = quest?.Question
+        questTitle.text = quest?.Title
         
      
         answer1Button.setTitle(answer1?.Name, for: UIControlState.normal)
+        answer2Button.setTitle(answer2?.Name, for: UIControlState.normal)
+
+        userPhoto.image = UIImage(named: "kid.jpg")
+    
+
     }
     
     override func didReceiveMemoryWarning() {
@@ -52,6 +59,9 @@ class QuestionViewController: UIViewController {
     
     //logic for Question object
     @IBOutlet weak var answer1Button: UIButton!
+    @IBOutlet weak var answer2Button: UIButton!
     
+    @IBOutlet weak var userPhoto: UIImageView!
+    @IBOutlet weak var questTitle: UILabel!
     
 }
