@@ -18,6 +18,7 @@
 		ED28797E1D8DAF570022A297 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED28797D1D8DAF570022A297 /* Question.swift */; };
 		ED2879801D8DAF660022A297 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED28797F1D8DAF660022A297 /* User.swift */; };
 		ED2879821D8DAF760022A297 /* Answer.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2879811D8DAF760022A297 /* Answer.swift */; };
+		EDCB5D151D90F33500E1D670 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDCB5D141D90F33500E1D670 /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		ED28797D1D8DAF570022A297 /* Question.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
 		ED28797F1D8DAF660022A297 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		ED2879811D8DAF760022A297 /* Answer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Answer.swift; sourceTree = "<group>"; };
+		EDCB5D141D90F33500E1D670 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 			children = (
 				ED28794F1D8DAEBD0022A297 /* AppDelegate.swift */,
 				ED2879511D8DAEBD0022A297 /* ViewController.swift */,
+				EDCB5D141D90F33500E1D670 /* LoginViewController.swift */,
 				071E1D6F1D90A5E200AE7650 /* QuestionViewController.swift */,
 				ED2879531D8DAEBD0022A297 /* Main.storyboard */,
 				ED2879561D8DAEBD0022A297 /* Assets.xcassets */,
@@ -279,6 +282,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EDCB5D151D90F33500E1D670 /* LoginViewController.swift in Sources */,
 				ED2879801D8DAF660022A297 /* User.swift in Sources */,
 				ED28797E1D8DAF570022A297 /* Question.swift in Sources */,
 				071E1D701D90A5E200AE7650 /* QuestionViewController.swift in Sources */,
