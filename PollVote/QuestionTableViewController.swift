@@ -64,8 +64,8 @@ class QuestionTableViewController: UITableViewController {
         qCellReturn.questionTitle.text = questionList[indexPath.row]
         qCellReturn.questionSubtitle.text = subtitleList[indexPath.row]
         
-        let appColor = UIColor(red: 51/255.0, green: 200/255.0, blue: 153/255.0, alpha: 1.0)
-        qCellReturn.backgroundColor = appColor
+      //let appColor = UIColor(red: 51/255.0, green: 200/255.0, blue: 153/255.0, alpha: 1.0)
+      //qCellReturn.backgroundColor = appColor
         
         return qCellReturn
         
