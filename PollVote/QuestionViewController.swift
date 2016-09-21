@@ -35,6 +35,9 @@ class QuestionViewController: UIViewController {
         answer2Button.setTitle(answer2?.Name, for: UIControlState.normal)
 
         userPhoto.image = UIImage(named: "kid.jpg")
+        
+        let appColor = UIColor(red: 51/255.0, green: 255/255.0, blue: 153/255.0, alpha: 1.0)
+        view.backgroundColor = appColor
     
 
     }

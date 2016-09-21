@@ -22,6 +22,8 @@ class QuestionTableViewController: UITableViewController {
 
         // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
         // self.navigationItem.rightBarButtonItem = self.editButtonItem()
+        
+      
     }
 
     override func didReceiveMemoryWarning() {
@@ -62,6 +64,8 @@ class QuestionTableViewController: UITableViewController {
         qCellReturn.questionTitle.text = questionList[indexPath.row]
         qCellReturn.questionSubtitle.text = subtitleList[indexPath.row]
         
+        let appColor = UIColor(red: 51/255.0, green: 255/255.0, blue: 153/255.0, alpha: 1.0)
+        qCellReturn.backgroundColor = appColor
         
         return qCellReturn
         
